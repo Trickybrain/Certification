@@ -1,0 +1,433 @@
+
+body .page-content-certlistview {
+    margin-top: 110px;
+    background-color: #56879f;
+    padding: 60px;
+    border-radius: 23px;
+  }
+  
+
+/*
+Banner
+*/
+
+
+.main-banner-cert {
+    background-image: url("https://t4.ftcdn.net/jpg/02/18/18/55/360_F_218185587_P4zituDtWJOfClUKL6merI0BgLMIxoeC.jpg");
+    background-position: center center;
+    background-size: cover;
+    min-height: 380px;
+    border-radius: 23px;
+    padding: 80px 60px;
+  }
+  
+  .main-banner-cert .h6-cert {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 25px;
+  }
+  
+  .main-banner-cert .h4-cert {
+    font-size: 45px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+  }
+  
+  .main-banner-cert .h4-cert .em-cert {
+    font-style: normal;
+    color: #ec6090;
+  }
+
+/*
+banner ends
+*/
+
+/* main button */
+.main-button-cert button{
+  font-size: 14px;
+  color: #fff;
+  background-color: #e75e8d;
+  padding: 12px 30px;
+  display: inline-block;
+  border-radius: 25px;
+  font-weight: 400;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.main-button-cert button:hover {
+  background-color: #fff;
+  color: #e75e8d;
+}
+
+.main-button-cert a {
+    font-size: 14px;
+    color: #fff;
+    background-color: #e75e8d;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .main-button-cert a:hover{
+    background-color: #fff;
+    color: #e75e8d;
+  }
+/* main button */
+
+
+/* 
+---------------------------------------------
+Cert Library Style
+--------------------------------------------- 
+*/
+
+.cert-library {
+    margin-top: 40px;
+    padding: 30px;
+    background-color: #192c38;
+    border-radius: 23px;
+  }
+  
+  .cert-library .item-cert {
+    border-bottom: 1px solid #638b9f;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .cert-library .last-item {
+    margin-bottom: 30px;
+  }
+  
+  .profile-library .last-item {
+    border-bottom: none;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .cert-library .item-cert ul li {
+    margin-top: 15px;
+  }
+  
+  .cert-library .item-cert ul li img {
+    margin-top: -30px;
+  }
+  
+  .cert-library .item-cert ul li {
+    display: inline-block;
+    width: 17%;
+  }
+
+  
+  
+  .cert-library .item-cert ul li:first-child {
+    width: 110px;
+  }
+  
+  .cert-library .item-cert ul li:last-child {
+    width: 15%;
+    text-align: right;
+  }
+  
+  .cert-library .item-cert ul li h4 {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .cert-library .item-cert ul li span {
+    color: #b4aaaa;
+    font-size: 14px;
+  }
+  
+  .cert-library .main-button {
+    text-align: center;
+    margin-bottom: -53px;
+  }
+
+/* 
+---------------------------------------------
+Org Library Style
+--------------------------------------------- 
+*/
+
+.org-library {
+  margin-top: 60px;
+  padding: 30px;
+  background-color: #192c38;
+  border-radius: 23px;
+}
+
+.org-library .item-cert {
+  border-bottom: 1px solid #638b9f;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.org-library .last-item {
+  margin-bottom: 30px;
+}
+
+.profile-library .last-item {
+  border-bottom: none;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.org-library .item-cert ul li {
+  margin-top: 10px;
+}
+
+.org-library .item-cert ul li img {
+  margin-top: -30px;
+}
+
+.org-library .item-cert ul li {
+  display: inline-block;
+  width: 38%;
+}
+
+
+.org-library .item-cert ul li:first-child {
+  width: 110px;
+}
+
+.org-library .item-cert ul li:last-child {
+  width: 15%;
+  text-align: right;
+}
+
+.org-library .item-cert ul li h4 {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.org-library .item-cert ul li span {
+  color: #b4aaaa;
+  font-size: 14px;
+}
+
+.org-library .main-button {
+  text-align: center;
+  margin-bottom: -53px;
+}
+
+
+  /*size style */
+.h1-cert, .h2-cert, .h3-cert, .h4-cert, .h5-cert, .h6-cert {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #fff;
+    font-weight: 700;
+  }
+
+  /*templatemo style */
+  .templatemo-item {
+	max-width: 80px; 
+	border-radius: 23px;
+}
+
+
+
+
+.main-border-button a {
+    font-size: 14px;
+    color: #ec6090;
+    background-color: transparent;
+    border: 1px solid #ec6090;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .main-border-button a:hover {
+    border-color: #fff;
+    background-color: #fff;
+    color: #e75e8d;
+  }
+
+  .main-button a {
+    font-size: 14px;
+    color: #fff;
+    background-color: #e75e8d;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .main-button a:hover {
+    background-color: #fff;
+    color: #e75e8d;
+  }
+
+
+  @media (max-width: 767px) {
+    body .page-content-certlistview {
+      padding: 0px 30px;
+    }
+  
+    .cert-library .item-cert ul li,
+    .cert-library .item-cert ul li:first-child,
+    .cert-library .item-cert ul li:last-child {
+      width: 100% !important;
+      text-align: center !important;
+    }
+    .cert-library .item-cert ul li {
+      margin-top: 30px;
+    }
+    .top-downloaded ul li .download i {
+      top: 20px;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+    }
+    .top-downloaded ul li img {
+      margin-right: 10px;
+    }
+    .top-downloaded ul li span {
+      font-size: 14px;
+    }
+    .top-streamers ul li .main-button {
+      float: none;
+      margin-top: 10px;
+    }
+    .top-streamers ul li .main-button a {
+      width: 100%;
+      text-align: center;
+    }
+    .top-streamers,
+    .top-downloaded {
+      max-height: 100%;
+      min-height: 100%;
+    }
+    .most-popular .item-cert .inner-item {
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .background-header {
+    display: inline-block;
+    }
+    .header-area .main-nav #search {
+      display: none;
+    }
+    .heading-section h4 {
+      font-size: 20px;
+    }
+    .cert-library .item-cert ul li {
+      width: 48% !important;
+    }
+    .cert-library .item-cert ul li:last-child {
+      text-align: left;
+    }
+    .featured-games {
+      margin-bottom: 60px;
+    }
+    .start-stream .item-cert {
+      margin: 15px 0px;
+    }
+    .feature-banner .thumb {
+      margin-top: 30px;
+    }
+    .main-profile .main-info {
+      margin: 45px 0px;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .header-area .main-nav .nav li {
+      padding-right: 5px;
+      padding-left: 5px;
+    }
+    .header-area .main-nav .logo {
+      margin-right: 30px;
+      border-right: none;
+    }
+    .cert-library .item-cert ul li {
+      width: 16%;
+    }
+  }
+
+  .heading-section .h4-cert {
+    color: #ec6090;
+    font-size: 34px;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+  
+  .heading-section .h6-cert {
+    color: #ec6090;
+    font-size: 18px;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+  
+  .descrip {
+    color: #f0c5d4;
+    font-size: 15px;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+
+  .heading-section .h4-cert .em-cert {
+    color: #fff;
+    font-style: normal;
+    text-decoration: underline;
+  }
+
+  .cert-library .item-cert ul li .h4-cert {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+
+
+  .collapsible .content {
+    padding: 6px;
+    background-color: #eeeeee;
+}
+.collapsible .header {
+    background-color: #dddddd;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+
+/*Search*/
+  
+ .search-cert-input input {
+  background-color: #27292a;
+  height: 46px;
+  width: 380px;
+  border-radius: 30px;
+  border: none;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 0px 18px 0px 23px;
+}
