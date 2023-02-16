@@ -1,0 +1,152 @@
+.custom-card {
+  margin: 20px auto;
+  display: block;
+  box-shadow: 0 0 10px #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+} 
+
+  .custom-btn-group {
+    margin: 10px;
+  }
+
+  .custom-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    float: left;
+    margin-right: 20px;
+    margin-top: -143px;
+    border-radius: 10px;
+}
+
+
+
+  .custom-container {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .custom-select {
+  font-size: 1em;
+  color: #050112;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 1px;
+  cursor: pointer;
+}
+.custom-select:hover {
+  background-color: #f1f1f1;
+}
+
+
+.search-container {
+  width: 200px;
+  display: flex;
+  }
+
+  .search-container input {
+    font-size: 14px;
+    padding: 5px;
+    width: 150px;
+    height: 30px;
+}
+
+  .search-container button {
+    width: 150px;
+    height: 30px;
+    background-color: #050112;
+    border-radius: 5px;
+    color: #f1edff;
+}
+
+.search-container button:hover {
+  background-color: #754ffe;
+  color: white;
+  cursor: pointer;
+}
+
+ 
+
+.small-image {
+  max-width: 100px;
+}
+
+.ck-editor__editable_inline {
+  min-height: 150px;
+}
+
+.card.custom-card button {
+  left: 250px;
+  bottom: 150px;
+}
+
+.preview {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 234px auto 0;  
+  grid-column: 1;
+}
+
+.create-blog {
+  color: black;
+}
+
+
+.pagination {
+  color: #000000;
+  border: black;
+}
+
+.spacing-img {
+  margin-top: 15px;
+}
+
+.container-a {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+
+ .card-prev {
+  padding: 30px;
+  margin: -735px auto;  
+  margin-right: -400px;
+}
+
+.submit-padding {
+  padding: 15px;
+}
+
+.blog-edit {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  background-color: #f3f3f3;
+}
+
+.nav-color {
+  color:#050112;
+}
+
+.card-container {
+  width: 100%;
+  max-width: 350px;
+  padding: 20px;
+}
+
+.blogs-main-card {
+  width: 200px;
+  height: 200px;
+  
+}
+
+.blog-img-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  width:  200x;
+  height: 200px;
+
+  }
